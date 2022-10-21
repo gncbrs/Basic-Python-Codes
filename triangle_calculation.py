@@ -1,3 +1,5 @@
+import time
+
 print("""
 ***************************************
 Geometry Machine;
@@ -12,6 +14,7 @@ while True:
     process = input("Enter a process: ")
     
     if (process == "2"):
+        time.sleep(1)
         print("Sign out.")
         break
 
@@ -24,7 +27,8 @@ while True:
             z = float(input("Enter a number: "))
             
             u = (x + y + z) / 2 # Required to calculate area
-
+            
+            time.sleep(1)
             print("The area according to these numbers: {}".format((u*(u-x)*(u-y)*(u-z))**(1/2)))
 
         except:
