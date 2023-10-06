@@ -1,4 +1,5 @@
 #Coded by Gönenç Barış Bezik
+#Please use this document with words.txt
 import random
 
 #Word selection section.
