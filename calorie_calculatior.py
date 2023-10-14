@@ -1,3 +1,4 @@
+#coded by Gonenc Baris Bezik
 print("-----Calorie Calculator-----")
 
 #In here we calculate the total amount of calorie for woman.
